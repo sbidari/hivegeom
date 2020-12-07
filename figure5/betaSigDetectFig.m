@@ -1,4 +1,5 @@
 function [JJ,opt_JJ,opt_theta,Vs]=betaSigDetectFig
+% Figure 5.d
 
 % Initialiaze here
 list_v10 = linspace(0,.5,51);

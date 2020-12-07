@@ -1,5 +1,7 @@
 function [JJ,opt_JJ,opt_theta]=DvSigDetectFig
 
+% Figure 5.d
+
 % Initialiaze here
 list_v10 = linspace(0,.5,501);
 f_plus = 2*betapdf(2*list_v10,5,5);

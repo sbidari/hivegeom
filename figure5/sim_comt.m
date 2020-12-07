@@ -27,11 +27,6 @@ dxdt(2) =  params.Dv*(x(1)-x(2));
 dxdt(3) = -(params.beta)*heaviside(x(1)-params.theta)*x(3) + params.Dw*(x(4)-x(3));
 dxdt(4) = -(params.beta)*heaviside(x(2)-params.theta)*x(4) + params.Dw*(x(3)-x(4));
 
-% dxdt(1) = params.beta*x(3) + params.D*(x(2)-x(1));
-% dxdt(2) = params.D*(x(1)-x(2));
-% dxdt(3) = -params.beta*x(3);
-% dxdt(4) =  0;
-
 end
 
 

@@ -1,5 +1,7 @@
-% close all;
-% clear all;
+%Figure 4.b 
+
+close all;
+clear all;
 
 
 % define colors here
